@@ -1,4 +1,4 @@
-import NavLink from "../../Element/NavLink/NavLink";
+import NavLink from "../../Element/PageLink/NavLink";
 
 const Navbar = () => {
   return (
@@ -10,13 +10,16 @@ const Navbar = () => {
 
       <ul className="mr-10 flex h-full gap-5 items-center">
         <li>
-          <NavLink Content="Home" goTo="/" />
+          <NavLink goTo="home" Content="Home" />
         </li>
         <li>
-          <NavLink Content="About" goTo="/about" />
+          <NavLink goTo="category" Content="Categori" />
         </li>
         <li>
-          <NavLink Content="Contact" goTo="/contact" />
+          <NavLink goTo="fasilitas" Content="Fasilitas" />
+        </li>
+        <li>
+          <NavLink goTo="kontak" Content="Kontak" />
         </li>
       </ul>
     </nav>

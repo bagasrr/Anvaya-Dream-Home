@@ -564,6 +564,13 @@
   dependencies:
     "@types/react" "*"
 
+"@types/react-scroll@^1.8.10":
+  version "1.8.10"
+  resolved "https://registry.yarnpkg.com/@types/react-scroll/-/react-scroll-1.8.10.tgz#585a5c4bd0654434f3e55a08e94ed2e048bae7c7"
+  integrity sha512-RD4Z7grbdNGOKwKnUBKar6zNxqaW3n8m9QSrfvljW+gmkj1GArb8AFBomVr6xMOgHPD3v1uV3BrIf01py57daQ==
+  dependencies:
+    "@types/react" "*"
+
 "@types/react@*", "@types/react@^18.3.3":
   version "18.3.5"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-18.3.5.tgz#5f524c2ad2089c0ff372bbdabc77ca2c4dbadf8f"
@@ -2380,6 +2387,7 @@ source-map-js@^1.2.0:
   integrity sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==
 
 "string-width-cjs@npm:string-width@^4.2.0", string-width@^4.1.0:
+  name string-width-cjs
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
   integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
@@ -2501,6 +2509,11 @@ supports-preserve-symlinks-flag@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
+
+swiper@^11.1.14:
+  version "11.1.14"
+  resolved "https://registry.yarnpkg.com/swiper/-/swiper-11.1.14.tgz#7901b4955c46dd0ad76fac1e9de2a69f04f34abb"
+  integrity sha512-VbQLQXC04io6AoAjIUWuZwW4MSYozkcP9KjLdrsG/00Q/yiwvhz9RQyt0nHXV10hi9NVnDNy1/wv7Dzq1lkOCQ==
 
 tailwindcss@^3.4.11:
   version "3.4.11"

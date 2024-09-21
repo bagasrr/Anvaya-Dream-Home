@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "src": "/source/fasilitas1.png",
+    "alt": "Fasilitas 1"
+  },
+  {
+    "id": 2,
+    "src": "/source/fasilitas2.png",
+    "alt": "Fasilitas 2"
+  },
+  {
+    "id": 3,
+    "src": "/source/fasilitas3.png",
+    "alt": "Fasilitas 3"
+  },
+  {
+    "id": 4,
+    "src": "/source/fasilitas4.png",
+    "alt": "Fasilitas 4"
+  },
+  {
+    "id": 5,
+    "src": "/source/fasilitas5.png",
+    "alt": "Fasilitas 5"
+  },
+  {
+    "id": 6,
+    "src": "/source/fasilitas6.png",
+    "alt": "Fasilitas 6"
+  },
+  {
+    "id": 7,
+    "src": "/source/fasilitas7.png",
+    "alt": "Fasilitas 7"
+  },
+  {
+    "id": 8,
+    "src": "/source/fasilitas8.png",
+    "alt": "Fasilitas 8"
+  },
+  {
+    "id": 9,
+    "src": "/source/fasilitas9.png",
+    "alt": "Fasilitas 9"
+  }
+]

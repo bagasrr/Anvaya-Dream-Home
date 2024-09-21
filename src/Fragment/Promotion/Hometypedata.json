@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "imgsrc": "/source/Avila.jpg",
+    "imgalt": "Avila",
+    "type": "Avila"
+  },
+  {
+    "id": 2,
+    "imgsrc": "/source/Madrid.jpg",
+    "imgalt": "Madrid",
+    "type": "Madrid"
+  },
+  {
+    "id": 3,
+    "imgsrc": "/source/Asturia.png",
+    "imgalt": "Asturia",
+    "type": "Asturia"
+  },
+  {
+    "id": 4,
+    "imgsrc": "/source/Bentley.png",
+    "imgalt": "Bentley",
+    "type": "Bentley"
+  }
+]
