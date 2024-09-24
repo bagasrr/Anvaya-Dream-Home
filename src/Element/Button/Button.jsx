@@ -5,8 +5,12 @@ const Button = (props) => {
 export default Button;
 
 const NormalButton = (props) => {
-  const { Content } = props;
-  return <button className="bg-sky-500 text-white text-sm w-28 h-full py-1.5 mt-1 font-bold rounded-lg hover:bg-sky-700 sm:w-1/4 sm:p-2.5">{Content}</button>;
+  const { Content, handleSubmit } = props;
+  return (
+    <button className="bg-sky-500 text-white text-sm w-28 h-full py-1.5 mt-1 font-bold rounded-lg hover:bg-sky-700 sm:w-1/4 sm:p-2.5" onClick={handleSubmit}>
+      {Content}
+    </button>
+  );
 };
 
 const whatsappUrl = (phoneNumber, message) => {

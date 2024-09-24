@@ -26,7 +26,7 @@ const ImgSwapper = () => {
         prevEl: ".swiper-button-prev",
       }}
       modules={[Autoplay, Pagination, Navigation]}
-      className="mySwiper"
+      className="mySwiper h-4/5 w-5/6 aspect-video"
     >
       {Imagedata.map((image) => (
         <SwiperSlide key={image.id} className="flex p-1 md:p-2">
@@ -35,14 +35,8 @@ const ImgSwapper = () => {
       ))}
       {!isMobile && (
         <>
-          <div
-            className="swiper-button-next"
-            style={{ color: "white" }} // Ganti dengan warna yang Anda inginkan
-          ></div>
-          <div
-            className="swiper-button-prev"
-            style={{ color: "white" }} // Ganti dengan warna yang Anda inginkan
-          ></div>
+          <div className="swiper-button-next" style={{ color: "white" }}></div>
+          <div className="swiper-button-prev" style={{ color: "white" }}></div>
         </>
       )}
     </Swiper>

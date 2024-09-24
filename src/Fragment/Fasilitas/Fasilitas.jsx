@@ -1,13 +1,14 @@
 import { Title } from "../../Element/Title/Title";
-import ImageGallery from "./ImageGallery";
 import ImgSwapper from "./ImgSwapper";
+import "./ImgSwapper.css";
 
-const Fasilitas = () => (
-  <div className="my-10">
-    <Title title="Fasilitas Yang Kami Tawarkan" />
-    {/* <ImageGallery /> */}
-    <ImgSwapper />
-  </div>
-);
+const Fasilitas = () => {
+  return (
+    <div className="py-24 img-container">
+      <Title title="Fasilitas Yang Kami Tawarkan" fontColor="white" />
+      <ImgSwapper />
+    </div>
+  );
+};
 
 export default Fasilitas;
