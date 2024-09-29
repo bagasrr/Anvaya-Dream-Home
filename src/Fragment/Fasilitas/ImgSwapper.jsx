@@ -12,7 +12,8 @@ const ImgSwapper = () => {
 
   return (
     <Swiper
-      spaceBetween={30}
+      loop={true}
+      // spaceBetween={30}
       centeredSlides={true}
       autoplay={{
         delay: 2500,

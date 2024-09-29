@@ -37,7 +37,7 @@ const Header = () => {
     console.log(inputName, inputPhoneNumber, inputEmail, inputDomisili, inputCluster);
 
     window.open(
-      `https://wa.me/6283804262567?text=${encodeURIComponent(
+      `https://wa.me/6281252800095?text=${encodeURIComponent(
         `Hi, Saya ${inputName} tertarik dengan Anvaya. Apakah saya bisa bertanya mengenai Anvaya? terlebih tentang Cluster : ${inputCluster} \n Ini adalah kontak saya :\n Email : ${inputEmail} \n Nomor Telephone :  ${inputPhoneNumber} \n Domisili : ${inputDomisili}`
       )}`
     );
