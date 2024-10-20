@@ -16,8 +16,8 @@ const Home = () => {
       <Element name="home">
         <Navbar />
         <Header />
-        <WhyUs />
         <Element name="tentang">
+          <WhyUs />
           <About />
         </Element>
         <Promotion />
