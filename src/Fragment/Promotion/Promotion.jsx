@@ -9,6 +9,7 @@ const Promotion = () => {
   const minHeight = {
     minHeight: "60vh",
   };
+<<<<<<< HEAD
   const imgBackgorund = {
     backgroundImage: `url(/source/BgWaButton.png`,
   };
@@ -21,6 +22,11 @@ const Promotion = () => {
           <Button type="wa" phoneNumber="81252800095" message="Halo! saya tertarik dengan Anvaya, Bolehkah saya bertanya beberapa hal?" caption="Tanya-Tanya Dulu Yukk" />
         </div>
       </Element>
+=======
+
+  return (
+    <div className="mt-24" style={minHeight}>
+>>>>>>> 5b5bb2c (penambahan video)
       <Element name="category">
         <Title title="Temukan Listing Premium Kami" />
         <div className="w-screen flex flex-wrap justify-center h-full">

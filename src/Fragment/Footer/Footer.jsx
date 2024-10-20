@@ -1,4 +1,7 @@
+import { WaLink } from "../../Element/Button/Button";
+import NavLink from "../../Element/PageLink/NavLink";
 import PageLink from "../../Element/PageLink/PageLink";
+import PKAnvayaPDF from "/source/PK_The_Anvaya.pdf";
 
 const Footer = () => {
   return (
@@ -14,24 +17,24 @@ const Footer = () => {
         </p>
       </div>
 
-      <div className="w-screen sm:w-3/5 p-5 flex justify-evenly gap-2">
+      <div className="w-screen sm:w-3/5 p-5 flex justify-around">
         <div className="sm:w-1/2">
           <h3 className="text-lg sm:text-xl font-bold mb-5">Bantuan</h3>
           <ul className="text-sm grid gap-2">
             <li>
-              <PageLink type="normal" content="Syarat dan Ketentuan" url="#" />
+              <PageLink goTo="downloadPDF" content="Download PDF" type="normal" />
             </li>
             <li>
-              <PageLink type="normal" content="Panduan Pembelian" url="#" />
+              <PageLink goTo="home" content="Home" type="normal" />
             </li>
             <li>
-              <PageLink type="normal" content="Panduan Pemilik" url="#" />
+              <PageLink goTo="tentang" content="Tentang" type="normal" />
             </li>
             <li>
-              <PageLink type="normal" content="F. A. Q" url="#" />
+              <PageLink goTo="fasilitas" content="Fasilitas" type="normal" />
             </li>
             <li>
-              <PageLink content="Download PDF" type="pdf" />
+              <PageLink goTo="infoharga" content="Info Harga" type="img" />
             </li>
           </ul>
         </div>
@@ -48,11 +51,13 @@ const Footer = () => {
                   d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"
                 />
               </svg>
-              <p className="text-xs sm:text-lg">+62 812-5280-0095</p>
+              <p className="text-xs sm:text-lg w-full">+62 812-5280-0095</p>
             </div>
 
             {/* Social Media */}
-            <div className="absolute bottom-0 flex gap-4 align-baseline"></div>
+            <div className="mt-5 tes">
+              <WaLink phoneNumber="81252800095" message="Halo! saya tertarik dengan Anvaya, Bolehkah saya bertanya beberapa hal?" caption="WhatsApp" />
+            </div>
           </div>
         </div>
       </div>

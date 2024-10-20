@@ -13,7 +13,11 @@ const Navbar = () => {
           <NavLink goTo="home" Content="Home" />
         </li>
         <li>
+<<<<<<< HEAD
           <NavLink goTo="category" Content="Categori" />
+=======
+          <NavLink goTo="tentang" Content="Tentang" />
+>>>>>>> 5b5bb2c (penambahan video)
         </li>
         <li>
           <NavLink goTo="fasilitas" Content="Fasilitas" />

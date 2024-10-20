@@ -6,6 +6,9 @@ import WhyUs from "../Fragment/WhyUs/WhyUs";
 import Promotion from "../Fragment/Promotion/Promotion";
 import Fasilitas from "../Fragment/Fasilitas/Fasilitas";
 import { Element } from "react-scroll";
+import About from "../Fragment/About/About";
+import Kontak from "../Fragment/About/Kontak";
+import PriceDisplay from "../Fragment/About/Harga";
 
 const Home = () => {
   return (
@@ -14,10 +17,13 @@ const Home = () => {
         <Navbar />
         <Header />
         <WhyUs />
-        <Promotion />
-        <Element name="fasilitas">
-          <Fasilitas />
+        <Element name="tentang">
+          <About />
         </Element>
+        <Promotion />
+        <PriceDisplay />
+        <Kontak />
+        <Fasilitas />
         <Footer />
       </Element>
     </Fragment>
