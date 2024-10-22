@@ -39,6 +39,10 @@ const Promotion = () => {
           ))}
         </div>
       </Element>
+      <div className="flex items-center justify-center gap-5">
+        <h2 className="text-lg font-bold">Silahkan Chat kami untuk informasi lebih lanjut</h2>
+        <Button type="wa" phoneNumber="81252800095" message="Halo! saya tertarik dengan Anvaya, Bolehkah saya bertanya beberapa hal?" caption="WhatsApp" />
+      </div>
     </div>
   );
 };
