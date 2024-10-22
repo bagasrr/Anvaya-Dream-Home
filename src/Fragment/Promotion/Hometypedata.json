@@ -4,21 +4,21 @@
     "imgsrc": "/source/Avila.jpg",
     "imgalt": "Avila",
     "type": "Avila",
-    "price": "Xxx"
+    "price": "7xx"
   },
   {
     "id": 2,
     "imgsrc": "/source/Madrid.jpg",
     "imgalt": "Madrid",
     "type": "Madrid",
-    "price": "Xxx"
+    "price": "8xx"
   },
   {
     "id": 3,
     "imgsrc": "/source/Asturia.png",
     "imgalt": "Asturia",
     "type": "Asturia",
-    "price": "Xxx"
+    "price": "8xx"
   },
   {
     "id": 4,
