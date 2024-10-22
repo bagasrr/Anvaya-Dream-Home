@@ -18,40 +18,40 @@ const PDFDownload = (props) => {
     </a>
   );
 };
-// const ImgDownload = (props) => {
-//   const { content } = props;
-//   return (
-//     <a href={Pricelist1} download="pricelist.jpeg" className="cursor-pointer hover:text-emerald-400">
-//       {content}
-//     </a>
-//   );
-// };
-
 const ImgDownload = (props) => {
-  const { content, className = "cursor-pointer hover:text-emerald-400" } = props;
-
-  const handleDownload = () => {
-    const link1 = document.createElement("a");
-    link1.href = Pricelist1;
-    link1.download = "pricelist1.jpeg";
-    document.body.appendChild(link1);
-    link1.click();
-    document.body.removeChild(link1);
-
-    const link2 = document.createElement("a");
-    link2.href = Pricelist2;
-    link2.download = "pricelist2.jpeg";
-    document.body.appendChild(link2);
-    link2.click();
-    document.body.removeChild(link2);
-  };
-
+  const { content, className } = props;
   return (
-    <button onClick={handleDownload} className={className}>
+    <a href={Pricelist2} download="pricelist.jpeg" className={className}>
       {content}
-    </button>
+    </a>
   );
 };
+
+// const ImgDownload = (props) => {
+//   const { content, className = "cursor-pointer hover:text-emerald-400" } = props;
+
+//   const handleDownload = () => {
+//     const link1 = document.createElement("a");
+//     link1.href = Pricelist1;
+//     link1.download = "pricelist1.jpeg";
+//     document.body.appendChild(link1);
+//     link1.click();
+//     document.body.removeChild(link1);
+
+//     const link2 = document.createElement("a");
+//     link2.href = Pricelist2;
+//     link2.download = "pricelist2.jpeg";
+//     document.body.appendChild(link2);
+//     link2.click();
+//     document.body.removeChild(link2);
+//   };
+
+//   return (
+//     <button onClick={handleDownload} className={className}>
+//       {content}
+//     </button>
+//   );
+// };
 
 const NormalLink = (props) => {
   const { goTo, content } = props;

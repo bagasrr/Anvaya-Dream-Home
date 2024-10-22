@@ -5,11 +5,6 @@ import PageLink from "../../Element/PageLink/PageLink";
 const PriceDisplay = () => {
   const img = [
     {
-      id: 1,
-      src: "/source/Pricelist1.jpeg",
-      alt: "Price 1",
-    },
-    {
       id: 2,
       src: "/source/Pricelist2.jpeg",
       alt: "Price 2",

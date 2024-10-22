@@ -3,24 +3,28 @@
     "id": 1,
     "imgsrc": "/source/Avila.jpg",
     "imgalt": "Avila",
-    "type": "Avila"
+    "type": "Avila",
+    "price": "Xxx"
   },
   {
     "id": 2,
     "imgsrc": "/source/Madrid.jpg",
     "imgalt": "Madrid",
-    "type": "Madrid"
+    "type": "Madrid",
+    "price": "Xxx"
   },
   {
     "id": 3,
     "imgsrc": "/source/Asturia.png",
     "imgalt": "Asturia",
-    "type": "Asturia"
+    "type": "Asturia",
+    "price": "Xxx"
   },
   {
     "id": 4,
     "imgsrc": "/source/Bentley.png",
     "imgalt": "Bentley",
-    "type": "Bentley"
+    "type": "Bentley",
+    "price": "7xx"
   }
 ]
