@@ -8,7 +8,6 @@ import Fasilitas from "../Fragment/Fasilitas/Fasilitas";
 import { Element } from "react-scroll";
 import About from "../Fragment/About/About";
 import Kontak from "../Fragment/About/Kontak";
-import PriceDisplay from "../Fragment/About/Harga";
 
 const Home = () => {
   return (
@@ -21,7 +20,6 @@ const Home = () => {
           <About />
         </Element>
         <Promotion />
-        <PriceDisplay />
         <Kontak />
         <Fasilitas />
         <Footer />
